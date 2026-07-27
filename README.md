@@ -4,7 +4,7 @@ Notebooks for named entity recognition (NER) and relation extraction (RE) with F
 
 ## Datasets
 
-The notebooks use datasets to train and test models available at: [https://doi.org/10.6084/m9.figshare.28970633](https://doi.org/10.6084/m9.figshare.28970633).
+The notebooks use datasets to train and test models available at: [https://doi.org/10.25747/B06H-RX96](https://doi.org/10.25747/B06H-RX96).
 
 The NER datasets are in **CoNLL-03 format**, with `token` and `label` columns, while the RE datasets are in **JSONL format**, with `text`, `ner`, and `relations` fields. Links are also provided directly in the notebooks.
 
@@ -33,5 +33,5 @@ Running inference with GLiREL RE models on general-domain and domain-specific ar
 * gliner==0.2.24
 * glirel==1.2.1
 * pandas==2.3.3
-* torch==2.3.1 # install the version matching your CUDA setup if using GPU
+* torch==2.6.0 # install the version matching your CUDA setup if using GPU
 * tqdm
